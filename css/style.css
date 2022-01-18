@@ -68,11 +68,11 @@
 }
 
 /* backgrount e posizione extra */
-.extra{
-    background-color: #00875A;
-    left: 45px;
-}
+.extra{background-color: #00875A;}
+.extra-pos-1{left: 45px;}
+.extra-pos-2{left: 0;}
 
+/* regole comuni descrizione articolo */
 .card-description{
     margin: 0 10px 20px;
     text-align: left;
@@ -80,25 +80,25 @@
     line-height: .9em;
 }
 
+/* decorazione prezzo articolo */
 span.price{
     color: #EB0037;
     font-weight: bold;
 }
 
+/* decorazione al vecchio prezzo dell'articolo */
 span.old-price{
     text-decoration: line-through;
 }
 
-
-
-
-
-
-
-.card-1:hover{
-    content: url('../img/1b.webp');
-    z-index: 0;
-
+/* regole per cambiare immagini di sfondo */
+.card-img:hover{
+    width:100%;
+    height:100%;
 }
-
-
+.card-img-1:hover{content: url('../img/1b.webp');}
+.card-img-2:hover{content: url('../img/2b.webp');}
+.card-img-3:hover{content: url('../img/3b.webp');}
+.card-img-4:hover{content: url('../img/4b.webp');} 
+.card-img-5:hover{content: url('../img/5b.webp');} 
+.card-img-6:hover{content: url('../img/6b.webp');} 
